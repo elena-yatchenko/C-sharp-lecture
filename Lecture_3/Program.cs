@@ -62,7 +62,8 @@
 // string res = Metod4(10, "asdf");
 // Console.WriteLine(res);
 
-// // Именованные аргументы
+// // ИМЕНОВАННЫЕ АРГУМЕНТЫ
+
 
 // void Metod21(string msg, int count)
 // {
