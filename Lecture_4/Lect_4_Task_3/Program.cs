@@ -32,7 +32,7 @@ string GetLetters(string str)
     string letters = "";
     foreach (char s in str)
     {
-        if (char.IsLetter(s) == true)
+        if (char.IsLetter(s) == true) // или char.IsAsciiLetter
         {
             letters = letters + s;
         }
@@ -57,3 +57,4 @@ for (int i = 1; i <= 5; i++)
     }
     System.Console.WriteLine("Some processing");
 }
+
